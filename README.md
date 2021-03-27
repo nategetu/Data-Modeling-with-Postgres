@@ -16,12 +16,6 @@ Source data exists as JSON files for song and play information which are extract
 
 ## Instructions & Tips
 1. Execute python script 'create_tables.py', which creates the Postgres tables in databse 'studentdb' for final output as specified in 'sql_queries.py'
-    - The tables created are as follows:
-        - songplays
-        - users
-        - songs
-        - artists
-        - time
 2. Execute python script 'etl.py' to extract data from the song and log JSON files in the 'data' folder and populate the tables listed above
 3. Perform analysis as needed using user-defined scripts
 
