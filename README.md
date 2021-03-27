@@ -5,7 +5,10 @@ This project retrieves songplay and user activity information from the Sparkify 
 Analysts at Sparkify can utilize this package to better understand which songs Sparkify users are listening to.
 
 ## Design
-This project implements a Postgres database in a star schema centered on the 'songplays' table, which provides information on individual song plays in Sparkify.
+This project implements a Postgres database in a star schema (displayed below) centered on the 'songplays' table, which provides information on individual song plays in Sparkify.
+
+![alt text](https://github.com/nategetu/Data-Modeling-with-Postgres/blob/main/tableSchemaDesign.jpg?raw=true)
+
 Auxiliary tables for analysis include tables with information on app users, songs in Sparkify, the artists who create those songs, and timestamps for song plays.
 The schema design allows for quick retrieval of song play records, as well as giving the end-user analyst the opportunity to join in auxiliary dimension tables for additional analysis on different variables (e.g. users, artists)
 
